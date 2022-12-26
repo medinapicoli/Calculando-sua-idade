@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    flex-direction: column;
+     background: linear-gradient(900deg, #04094b, #158fd4);
+     background-size: 400% 400%;
+     font: normal 15pt Arial;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+}
+
+.form-container {
+    display: flex;
+}
+    
+section {
+    font-size: 22px;
+    font-weight: bold;
+    background: #fff;
+    border-radius: 05px;
+    padding: 19px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 10px 10px 05px black;
+}
+
+
+footer {
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+}
+
+#imagem {
+    width: 100%;
+}
+
+.btn-verifica {
+    display: flex;
+    flex-direction: column;
+}
+
+#verifica:hover{
+    font-size:15px;
+    transition: 0.4s;
+}
+#verifica {
+    width: 130px;
+    height: 25px;
+    background: rgb(42, 192, 42);
+    color: #fff;
+    border: none;
+    margin: 16px;
+    cursor: pointer;
+    border-radius: 05px;
+    box-shadow: 3px 4px 7px black;
+}
+

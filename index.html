@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Vamos ver quantos anos você tem?</h1>
+    </header>
+
+    <section>
+        <div>
+            <p>
+                Ano nascimento:
+                <input type="number" name="txtano" id="txtano" min="0" />
+            </p>
+            <div class="form-container">
+                <div class="formulario">
+                    sexo:
+                    <input type="radio" name="radsex" id="fem" checked />
+                    <label for="fem">feminino </label>
+                    <input type="radio" name="radsex" id="masc" />
+                    <label for="masc">masculino</label>
+                </div>
+            </div>
+            <div class="btn-verifica">
+                <input id="verifica"type="button" value="verificar" onclick="verificar()" />
+            </div>
+        </div>
+        <div id="resultado">
+            Preencha os dados acima para ver o resultado!
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
